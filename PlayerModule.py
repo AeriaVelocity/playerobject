@@ -60,7 +60,3 @@ class PlayerObject:
             if self.CurrentHealth > self.MaxHealth:
                 self.CurrentHealth = self.MaxHealth
             print(f"{self.Name}'s health is now {self.CurrentHealth}/{self.MaxHealth}.")
-
-
-PlayerName = input("Please input your name!\n> ")
-Player = PlayerObject(PlayerName, 100, 15)
