@@ -7,13 +7,15 @@ The Python file `PlayerModule.py` in this repo contains the underlying code for 
 To create a new player, simply type 
 ```
 import PlayerModule
-Player = PlayerModule.PlayerObject(PlayerName, PlayerHealth, PlayerAttack)
+Player = PlayerModule.PlayerObject(PlayerName, PlayerHealth, PlayerAttack, GameName)
 ```
 `PlayerName` - The name of the player. Will be used in most dialogues.
 
 `PlayerHealth`- The maximum health of the player.
 
 `PlayerAttack` - The base attack strength of the player. Actual attack strength is determined by an RNG value ranging from base attack to double base attack. For example, if base attack is 15, a full-strength attack would be 30.
+
+`GameName` - The name of the game to be printed upon creating a new player in the format `"Welcome to {GameName}, {PlayerName}!"`.
 
 The PlayerObject object has three attributes - `Attack()`, `Damage(InitialDamageAmount)` and `Heal(HealAmount)`
 

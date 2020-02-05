@@ -1,7 +1,7 @@
 import PlayerModule
 
 PlayerName = input("Please input your name!\n> ")
-Player = PlayerModule.PlayerObject(PlayerName, 100, 15)
+Player = PlayerModule.PlayerObject(PlayerName, 100, 15, "Player OOP Test")
 print("Type 'attack' to attack, 'damage' to take damage or 'heal' to regain health.")
     
 while True:
