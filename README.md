@@ -4,6 +4,7 @@ The Python file `PlayerModule.py` in this repo contains the underlying code for 
 ## How to use the module
 To create a new player, simply type 
 ```
+from PlayerModule import PlayerObject
 Player = PlayerObject(PlayerName, PlayerHealth, PlayerAttack)
 ```
 `PlayerName` - The name of the player. Will be used in most dialogues.
