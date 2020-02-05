@@ -51,10 +51,16 @@ class PlayerObject:
     def Heal(self, HealAmount):
         if HealAmount > self.MaxHealth:
             self.CurrentHealth = self.MaxHealth
-            raise PlayerError(f"The specified heal amount was greater than {self.Name}'s maximum health; healing to max instead.")
+            try:
+                raise PlayerError("Heal amount too high.")
+            except PlayerError:
+                print(f"The specified heal amount was greater than {self.Name}'s maximum health; healing to max instead.")
             print(f"{self.Name}'s health is now {self.CurrentHealth}/{self.MaxHealth}.")
         elif HealAmount < 1:
-            raise PlayerError("Cannot heal by a non-positive value.")
+            try:
+                raise PlayerError("Cannot heal by a non-positive value.")
+            except PlayerError:
+                pass
         else:
             self.CurrentHealth = self.CurrentHealth + HealAmount
             if self.CurrentHealth > self.MaxHealth:

@@ -2,16 +2,17 @@ import PlayerModule
 
 PlayerName = input("Please input your name!\n> ")
 Player = PlayerModule.PlayerObject(PlayerName, 100, 15)
-print("Type 'Attack' to attack, 'Damage' to take damage or 'Heal' to regain health.")
+print("Type 'attack' to attack, 'damage' to take damage or 'heal' to regain health.")
     
 while True:
     PlayerInput = input("> ")
-    if PlayerInput == "Attack":
+    if PlayerInput == "attack":
         Player.Attack()
-    if PlayerInput == "Damage":
+    if PlayerInput == "damage":
         damageamount = int(input("How much damage do you want to receive?\n> "))
         Player.Damage(damageamount)
-    if PlayerInput == "Heal":
-        Player.Heal(10)
+    if PlayerInput == "heal":
+        healamount = int(input("How much health do you want to receive?\n> "))
+        Player.Heal(healamount)
     else:
         pass
