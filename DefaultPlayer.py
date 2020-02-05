@@ -1,4 +1,4 @@
-import PlayerObject
+from PlayerModule import PlayerObject
 
 PlayerName = input("Please input your name!\n> ")
 Player = PlayerObject(PlayerName, 100, 15)
