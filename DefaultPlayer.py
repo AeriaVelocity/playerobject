@@ -20,6 +20,7 @@ while True:
         if healamount == 'full':
             Player.Heal(Player.MaxHealth)
         else:
+            healamount = int(healamount)
             Player.Heal(healamount)
     else:
         pass
