@@ -1,7 +1,8 @@
-# Player object for game
-[![Run on Repl.it](https://repl.it/badge/github/CutieGorlAstrid/playerobject)](https://repl.it/github/CutieGorlAstrid/playerobject)
+# Player object for game [![Run on Repl.it](https://repl.it/badge/github/CutieGorlAstrid/playerobject)](https://repl.it/github/CutieGorlAstrid/playerobject)
 
+## Files
 The Python file `PlayerModule.py` in this repo contains the underlying code for a W.I.P. game. This repo will eventually grow to form a whole game, but for now it just holds my early code.
+`DefaultPlayer.py` is a separate file that is used to demonstrate how `PlayerModule.py` can be used.
 
 ## Prerequisites
 
@@ -36,6 +37,3 @@ The PlayerObject object has three attributes - `Attack()`, `Damage(InitialDamage
 
 `Player.Heal(HealAmount)` - Simply heals the player by the specified amount. If `HealAmount` is greater than or heals to a value greater than the player's max health, it sets the player's current health to max.
 
-## `DefaultPlayer.py`
-
-`DefaultPlayer.py` is a separate Python file in this repo that is used as an example of how `PlayerModule.py` can be used.
