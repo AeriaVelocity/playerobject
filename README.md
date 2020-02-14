@@ -6,7 +6,7 @@ The Python file `PlayerModule.py` in this repo contains the underlying code for 
 ## Prerequisites
 You can use [repl.it](https://repl.it) via the button above to run the code without downloading anything. Feel free to experiment with `DefaultPlayer.py`.
 
-If cloning/downloading the repo to your computer, you'll need at least [Python 3.6](https://www.python.org/downloads/release/python-3610/), as `PlayerModule.py` uses f-strings. The [latest version](https://www.python.org/downloads/) of Python is recommended.
+If cloning/downloading the repo to your computer, you'll need at least [Python 3.6](https://www.python.org/downloads/release/python-3610/), as `PlayerModule.py` uses [f-strings](https://docs.python.org/3/reference/lexical_analysis.html#f-strings). The [latest version](https://www.python.org/downloads/) of Python is recommended.
 
 ## How to use the module
 To create a new player, simply type 
