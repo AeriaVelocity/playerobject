@@ -1,7 +1,7 @@
-# Player object for game [![Run on Repl.it](https://repl.it/badge/github/CutieGorlAstrid/playerobject)](https://repl.it/github/CutieGorlAstrid/playerobject)
+# Basic RPG engine [![Run on Repl.it](https://repl.it/badge/github/CutieGorlAstrid/playerobject)](https://repl.it/github/CutieGorlAstrid/playerobject)
 
 ## Files
-The Python file `PlayerModule.py` in this repo contains the underlying code for a W.I.P. game. This repo will eventually grow to form a whole game, but for now it just holds my early code.
+The Python file `PlayerModule.py` in this repo contains the underlying code for a W.I.P. game engine. This repo will eventually grow to form a whole game, but for now it just holds my early code.
 `DefaultPlayer.py` is a separate file that is used to demonstrate how `PlayerModule.py` can be used.
 
 ## Prerequisites
