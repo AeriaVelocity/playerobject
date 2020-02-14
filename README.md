@@ -4,7 +4,7 @@
 The Python file `PlayerModule.py` in this repo contains the underlying code for a W.I.P. game. This repo will eventually grow to form a whole game, but for now it just holds my early code.
 
 ## Prerequisites
-You can use [repl.it](https://repl.it) via the link above to run the code without downloading anything. Feel free to experiment with `DefaultPlayer.py`.
+You can use [repl.it](https://repl.it) via the button above to run the code without downloading anything. Feel free to experiment with `DefaultPlayer.py`.
 
 If cloning/downloading the repo to your computer, you'll need at least [Python 3.6](https://www.python.org/downloads/release/python-3610/), as `PlayerModule.py` uses f-strings. The [latest version](https://www.python.org/downloads/) of Python is recommended.
 
