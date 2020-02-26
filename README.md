@@ -35,5 +35,5 @@ The PlayerObject object has three attributes - `Attack()`, `Damage(InitialDamage
 
 `Player.Damage(InitialDamageAmount)` - This works the same as `Player.Attack()`, but instead of dealing damage to any enemies, it deals damage to the player. Unlike the aforementioned `Player.Attack()`'s attack points, `Player.Damage()`'s `InitialDamageAmount` can be tripled.
 
-`Player.Heal(HealAmount)` - Simply heals the player by the specified amount. If `HealAmount` is greater than or heals to a value greater than the player's max health, it sets the player's current health to max. You can heal to max manually by substituting the numerical value used for `HealAmount` for `'full'`.
+`Player.Heal(HealAmount)` - Simply heals the player by the specified amount. If `HealAmount` is greater than or heals to a value greater than the player's max health, it sets the player's current health to max. You can heal to max manually by substituting the numerical value used for `HealAmount` with `'full'`.
 
