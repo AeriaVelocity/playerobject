@@ -11,7 +11,7 @@ print("Type 'attack' to attack, 'damage' to take damage or 'heal' to regain heal
 while True:
     PlayerInput = input("> ")
     if PlayerInput == "attack":
-        Player.Attack()
+        Player.Attack(0)
     if PlayerInput == "damage":
         damageamount = int(input("How much base damage do you want to receive?\n> "))
         Player.Damage(damageamount)

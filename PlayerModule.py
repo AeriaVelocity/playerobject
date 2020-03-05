@@ -19,14 +19,13 @@ class PlayerObject:
         print(f"Your maximum health is {self.MaxHealth} and your attack strength varies from {self.BaseAttack} to {self.TotalAttack}.")
 
         
-    def Attack(self):
-        
-        AttackValue = random.randint(self.BaseAttack,self.TotalAttack)
-        
+    def Attack(self, AttackBonus: int):
+        AttackValue = random.randint(self.BaseAttack,self.TotalAttack)+AttackBonus
         if AttackValue == self.TotalAttack:
             print(f"{self.Name} dealt maximum damage!")
         else:
             print(f"{self.Name} dealt {AttackValue} points of damage.")
+
 
             
     def Damage(self, InitialDamageAmount):
