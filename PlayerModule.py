@@ -26,7 +26,6 @@ class PlayerObject:
         else:
             print(f"{self.Name} dealt {AttackValue} points of damage.")
 
-
             
     def Damage(self, InitialDamageAmount):
         
