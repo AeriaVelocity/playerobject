@@ -1,4 +1,4 @@
-# Basic RPG engine [![Run on Repl.it](https://repl.it/badge/github/CutieGorlAstrid/playerobject)](https://repl.it/github/CutieGorlAstrid/playerobject)
+# Basic RPG engine [![Run on Repl.it](https://repl.it/badge/github/SpeedStriker243/playerobject)](https://repl.it/github/CutieGorlAstrid/playerobject)
 ## Files
 The Python file `PlayerModule.py` in this repo contains the code for a W.I.P. game engine. This repo will eventually grow to form a whole game engine, but for now it just holds my early code. 
 
